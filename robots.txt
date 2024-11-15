@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap:https://krnjajic.github.io/mobilux.projekat/sitemap.xml
