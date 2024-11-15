@@ -182,3 +182,63 @@ img {
     animation: uvecanjeSlike 0.8s forwards; 
 }
 
+
+@media (max-width: 768px) {
+    header ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .phone-gallery {
+        gap: 10px;
+    }
+
+    .phone-item {
+        flex-basis: calc(50% - 10px);
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+
+    .company-name {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    header ul li {
+        margin: 5px 0;
+    }
+
+    .phone-gallery {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .phone-item {
+        flex-basis: 100%;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+
+    form input[type="submit"] {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    .company-name {
+        font-size: 35px;
+    }
+}
+
